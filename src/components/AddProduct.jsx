@@ -12,7 +12,7 @@ const AddProduct = () => {
     image: null,
   });
 
-  const categories = ['Electronics', 'Clothing', 'Home Appliances', 'Books', 'Beauty'];
+  const categories = ['Electronics', 'Clothing', 'Books', 'Beauty'];
   const brands = ['Apple', 'Samsung', 'Sony', 'Nike', 'Adidas'];
 
   const handleChange = (e) => {
