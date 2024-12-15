@@ -12,7 +12,7 @@ const Products = () => {
     }
   
     try {
-      const res = await axios.delete(`http://localhost:8080/api/auth/products/${id}`);
+      const res = await axios.delete(`https://new-task-phi.vercel.app/api/auth/products/${id}`);
       console.log("Deleted Product:", res.data);
       setProducts((prevProducts) => prevProducts.filter((product) => product._id !== id));
     } catch (error) {

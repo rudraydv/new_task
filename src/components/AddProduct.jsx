@@ -29,7 +29,7 @@ const AddProduct = () => {
 
   const addProduct = async(product) =>{
     try {
-        const res = await axios.post('http://localhost:8080/api/auth/products',product)
+        const res = await axios.post('https://new-task-phi.vercel.app/api/auth/products',product)
         console.log(res.data);
     } catch (error) {
         console.log('error fetching',error);
